@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="1e5c15a7-f38d-460a-89c3-fd900c61cb14" 
+        solutionId="1e5c15a7-f38d-460a-89c3-fd900c61cb14" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ExpenseManager"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="f7a36621-0cf1-464c-91ae-ea16a085fd00" />
+  </features>
+</package>
