@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{dbd77185-3008-4879-9136-c8e335ac592a}"
+       Name="Description"
+       DisplayName="Description"
+       Type="Note"
+       RichText="FALSE"
+       Required="FALSE"
+       Group="Expenses">
+  </Field>
+</Elements>

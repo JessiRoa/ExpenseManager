@@ -42,17 +42,103 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="CategoryLists\ExponseList\Elements.xml" />
+    <Content Include="CategoryLists\ExponseList\ExponseListInstance\Elements.xml" />
+    <Content Include="CategoryLists\ExponseList\Schema.xml" />
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature6\Feature6.Template.xml">
+      <DependentUpon>Feature6.feature</DependentUpon>
+    </Content>
+    <Content Include="IncomeList\Elements.xml" />
+    <Content Include="IncomeList\IncomeListInstance\Elements.xml" />
+    <Content Include="IncomeList\Schema.xml" />
+    <Content Include="Income\Elements.xml" />
+    <Content Include="Income\IncomeInstance\Elements.xml" />
+    <Content Include="Income\Schema.xml" />
+    <Content Include="Columns\Category\Elements.xml" />
+    <Content Include="Columns\Date\Elements.xml" />
+    <Content Include="Columns\Description\Elements.xml" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="ExpenseManager\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
+    <Content Include="Expenses\Elements.xml" />
+    <Content Include="Expenses\ExpensesInstance\Elements.xml" />
+    <Content Include="Expenses\Schema.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="ContenType\Expenses\Elements.xml" />
+    <Content Include="Columns\Expense\Elements.xml" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <None Include="CategoryLists\ExponseList\ExponseListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ba8e1a6-748b-4683-98c8-6717c18784ad}</SharePointProjectItemId>
+    </None>
+    <None Include="CategoryLists\ExponseList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0406c837-bbf7-48ff-8c31-7b1a36dfea4a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{9f36ce2c-15de-45f1-b74b-eda2a131ecc4}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{f80df3b5-d3d5-4de6-bf15-7ec823f34188}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{79e32a30-4e3d-4386-8bcb-5d2cc45a341a}</FeatureId>
+    </None>
+    <None Include="Features\Feature6\Feature6.feature">
+      <FeatureId>{fe2cd0d8-2a8c-4947-a8a7-c8f7d2e83cab}</FeatureId>
+    </None>
+    <None Include="IncomeList\IncomeListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5950a77d-1d7c-40f1-b10b-2035316f0de0}</SharePointProjectItemId>
+    </None>
+    <None Include="IncomeList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3981f1cc-9e9b-407b-8eff-9e14c43651d7}</SharePointProjectItemId>
+    </None>
+    <None Include="Income\IncomeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6382c55a-7e7d-4620-ac81-fd5f9dbce04e}</SharePointProjectItemId>
+    </None>
+    <None Include="Income\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebc3f996-df58-438c-985c-63a0da9e47b8}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Category\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c8ce1102-16c5-4026-a8bc-5a5aaed4f145}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Date\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{96d7ffec-ba80-41ea-a13d-389fbb41e88c}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Description\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7b322436-5e19-465f-8de2-3912f3fabe8e}</SharePointProjectItemId>
+    </None>
     <None Include="ExpenseManager\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{fb0e7dbf-55cb-439f-a0f4-0e3ab51ae8dd}</SharePointProjectItemId>
+    </None>
+    <None Include="Expenses\ExpensesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b02d59dc-7b19-4d85-8a92-1edcd4535d5e}</SharePointProjectItemId>
+    </None>
+    <None Include="Expenses\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c4b49b9-9a84-4810-98f7-5a43c54732e7}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{cb05d36a-aed1-414b-b4f6-d543bee13713}</FeatureId>
+    </None>
+    <None Include="ContenType\Expenses\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d840e8f2-60f8-432b-b0d0-d28fd249fae8}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Expense\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dda1e891-5f74-48dd-8b1c-2a84593428b1}</SharePointProjectItemId>
     </None>
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -78,6 +164,7 @@
     </None>
     <Content Include="Pages\ExpenseManager.aspx" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Custom.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -118,6 +205,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

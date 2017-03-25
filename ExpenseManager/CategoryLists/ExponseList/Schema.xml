@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="ExponseList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ExponseList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentType ID="0x0100cf2be28c953041be942117e3a3f91bae" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{5cf19216-c484-4068-a9d9-6c7862955dbf}" Name="Salary" /><FieldRef ID="{d2a25456-892e-4ea7-ba34-1cca63fd9a08}" Name="Loans" /><FieldRef ID="{daac6f00-9ef6-48c4-9238-e1b001436c83}" Name="Tax" /><FieldRef ID="{9e67325c-d6a2-4747-a798-72d3c24a3661}" Name="Sales" /><FieldRef ID="{ef7b1833-9ebe-4f5c-b61e-4438fb865450}" Name="Others" /><FieldRef ID="{c7f3be8a-69cf-4dcf-90c7-c990b9e20950}" Name="Fuel" /><FieldRef ID="{54ac49c5-f16d-4048-8823-e7b9dfa9e65c}" Name="Pets" /><FieldRef ID="{1af0d5ba-44e1-4143-ada8-b0033ae95e93}" Name="Educaation" /><FieldRef ID="{d2779357-de94-40f7-acac-ad2c6a3365f0}" Name="Fun" /><FieldRef ID="{be040dc4-65fc-424b-abce-5ce7363dcba3}" Name="Household" /><FieldRef ID="{64d9aa2b-d472-44ff-9f14-1cea0befef0f}" Name="Family" /><FieldRef ID="{8c555f8b-ddb3-45c6-996d-c89b1394283f}" Name="Automobile" /><FieldRef ID="{637c2e56-85ef-4def-969b-7d7a95095aaa}" Name="Insurance" /><FieldRef ID="{b2ba7a19-f894-4021-a694-8727893e9ef3}" Name="Vacation1" /><FieldRef ID="{cb5a7e83-da88-473c-90f5-20a4abfbe309}" Name="Utilities" /><FieldRef ID="{04e13622-d70b-43ac-a74e-adca3f3636b9}" Name="Others1" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Salary" ID="{5cf19216-c484-4068-a9d9-6c7862955dbf}" DisplayName="Food" Type="Text" /><Field Name="Loans" ID="{d2a25456-892e-4ea7-ba34-1cca63fd9a08}" DisplayName="Loans" Type="Text" /><Field Name="Tax" ID="{daac6f00-9ef6-48c4-9238-e1b001436c83}" DisplayName="Health care" Type="Text" /><Field Name="Sales" ID="{9e67325c-d6a2-4747-a798-72d3c24a3661}" DisplayName="Transport" Type="Text" /><Field Name="Others" ID="{ef7b1833-9ebe-4f5c-b61e-4438fb865450}" DisplayName="Clothing" Type="Text" /><Field Name="Fuel" ID="{c7f3be8a-69cf-4dcf-90c7-c990b9e20950}" DisplayName="Fuel" Type="Text" /><Field Name="Pets" ID="{54ac49c5-f16d-4048-8823-e7b9dfa9e65c}" DisplayName="Pets" Type="Text" /><Field Name="Educaation" ID="{1af0d5ba-44e1-4143-ada8-b0033ae95e93}" DisplayName="Educaation" Type="Text" /><Field Name="Fun" ID="{d2779357-de94-40f7-acac-ad2c6a3365f0}" DisplayName="Fun" Type="Text" /><Field Name="Household" ID="{be040dc4-65fc-424b-abce-5ce7363dcba3}" DisplayName="Household" Type="Text" /><Field Name="Family" ID="{64d9aa2b-d472-44ff-9f14-1cea0befef0f}" DisplayName="Family" Type="Text" /><Field Name="Automobile" ID="{8c555f8b-ddb3-45c6-996d-c89b1394283f}" DisplayName="Automobile" Type="Text" /><Field Name="Insurance" ID="{637c2e56-85ef-4def-969b-7d7a95095aaa}" DisplayName="Insurance" Type="Text" /><Field Name="Vacation1" ID="{b2ba7a19-f894-4021-a694-8727893e9ef3}" DisplayName="Vacation" Type="Text" /><Field Name="Utilities" ID="{cb5a7e83-da88-473c-90f5-20a4abfbe309}" DisplayName="Utilities" Type="Text" /><Field Name="Others1" ID="{04e13622-d70b-43ac-a74e-adca3f3636b9}" DisplayName="Others" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="Salary" /><FieldRef Name="Loans" /><FieldRef Name="Tax" /><FieldRef Name="Sales" /><FieldRef Name="Others" /><FieldRef Name="Fuel" /><FieldRef Name="Pets" /><FieldRef Name="Educaation" /><FieldRef Name="Fun" /><FieldRef Name="Household" /><FieldRef Name="Family" /><FieldRef Name="Automobile" /><FieldRef Name="Insurance" /><FieldRef Name="Vacation1" /><FieldRef Name="Utilities" /><FieldRef Name="Others1" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

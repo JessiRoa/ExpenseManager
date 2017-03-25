@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b0ae0cd1-5dd0-4909-a7c9-a176efbe9648}"
+       Name="Expense"
+       DisplayName="Expense"
+       Type="Currency"
+       RichText="FALSE"
+       Required="FALSE"
+       Group="Expenses">
+  </Field>
+</Elements>

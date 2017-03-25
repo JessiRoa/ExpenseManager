@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ac14b118-d400-4776-a6c4-58d9e20d7b83" featureId="ac14b118-d400-4776-a6c4-58d9e20d7b83" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="ExpenseManager Feature4" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

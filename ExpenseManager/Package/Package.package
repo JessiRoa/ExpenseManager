@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="1e5c15a7-f38d-460a-89c3-fd900c61cb14" 
-        solutionId="1e5c15a7-f38d-460a-89c3-fd900c61cb14" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="ExpenseManager"
-        sharePointProductVersion="16.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1e5c15a7-f38d-460a-89c3-fd900c61cb14" solutionId="1e5c15a7-f38d-460a-89c3-fd900c61cb14" resetWebServer="false" sharePointProductVersion="16.0" name="ExpenseManager" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-        <featureReference itemId="f7a36621-0cf1-464c-91ae-ea16a085fd00" />
+    <featureReference itemId="f7a36621-0cf1-464c-91ae-ea16a085fd00" />
+    <featureReference itemId="cb05d36a-aed1-414b-b4f6-d543bee13713" />
+    <featureReference itemId="9f36ce2c-15de-45f1-b74b-eda2a131ecc4" />
+    <featureReference itemId="f80df3b5-d3d5-4de6-bf15-7ec823f34188" />
+    <featureReference itemId="79e32a30-4e3d-4386-8bcb-5d2cc45a341a" />
+    <featureReference itemId="fe2cd0d8-2a8c-4947-a8a7-c8f7d2e83cab" />
   </features>
 </package>

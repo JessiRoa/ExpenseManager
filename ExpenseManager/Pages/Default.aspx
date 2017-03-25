@@ -15,7 +15,8 @@
     <link href="../Content/font-awesome.min.css" rel="stylesheet" />
     <link href="../Content/App.css" rel="stylesheet" />
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.min.js"></script>
-    <script src="../Scripts/App.js"></script>
+    <!--<script src="../Scripts/App.js"></script>-->
+    <script src="../Scripts/Custom.js"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>

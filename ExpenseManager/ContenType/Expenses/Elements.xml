@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010018BA4EBC6D3B4CA784BA1B689011B28E" Name="Expenses" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{b0ae0cd1-5dd0-4909-a7c9-a176efbe9648}" DisplayName="Expense" Required="FALSE" Name="Expense" />
+      <FieldRef ID="{c78e4ddb-9fdd-4851-9af7-112344f99934}" DisplayName="Category" Required="FALSE" Name="Categories" />
+      <FieldRef ID="{dbd77185-3008-4879-9136-c8e335ac592a}" DisplayName="Description" Required="FALSE" Name="Description" />
+      <FieldRef ID="{c8b6ac4c-e52f-44b7-8451-758fce814225}" DisplayName="Date" Required="FALSE" Name="Date" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

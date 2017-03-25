@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c8b6ac4c-e52f-44b7-8451-758fce814225}"
+       Name="Date"
+       DisplayName="Date"
+       Type="DateTime"
+       RichText="FALSE"
+       Required="FALSE"
+       Group="Expenses">
+  </Field>
+</Elements>
