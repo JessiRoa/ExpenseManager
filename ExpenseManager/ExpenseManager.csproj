@@ -42,9 +42,9 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="CategoryLists\ExponseList\Elements.xml" />
-    <Content Include="CategoryLists\ExponseList\ExponseListInstance\Elements.xml" />
-    <Content Include="CategoryLists\ExponseList\Schema.xml" />
+    <Content Include="CategoryLists\ExpenseList\Elements.xml" />
+    <Content Include="CategoryLists\ExpenseList\ExponseListInstance\Elements.xml" />
+    <Content Include="CategoryLists\ExpenseList\Schema.xml" />
     <Content Include="Features\Feature3\Feature3.Template.xml">
       <DependentUpon>Feature3.feature</DependentUpon>
     </Content>
@@ -57,9 +57,10 @@
     <Content Include="Features\Feature6\Feature6.Template.xml">
       <DependentUpon>Feature6.feature</DependentUpon>
     </Content>
-    <Content Include="IncomeList\Elements.xml" />
-    <Content Include="IncomeList\IncomeListInstance\Elements.xml" />
-    <Content Include="IncomeList\Schema.xml" />
+    <Content Include="CategoryLists\IncomeList\Elements.xml" />
+    <Content Include="CategoryLists\IncomeList\IncomeListInstance\Elements.xml" />
+    <Content Include="CategoryLists\IncomeList\Schema.xml" />
+    <Content Include="Images\AppIcon.png" />
     <Content Include="Income\Elements.xml" />
     <Content Include="Income\IncomeInstance\Elements.xml" />
     <Content Include="Income\Schema.xml" />
@@ -83,10 +84,10 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
-    <None Include="CategoryLists\ExponseList\ExponseListInstance\SharePointProjectItem.spdata">
+    <None Include="CategoryLists\ExpenseList\ExponseListInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0ba8e1a6-748b-4683-98c8-6717c18784ad}</SharePointProjectItemId>
     </None>
-    <None Include="CategoryLists\ExponseList\SharePointProjectItem.spdata">
+    <None Include="CategoryLists\ExpenseList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0406c837-bbf7-48ff-8c31-7b1a36dfea4a}</SharePointProjectItemId>
     </None>
     <None Include="Features\Feature3\Feature3.feature">
@@ -101,10 +102,10 @@
     <None Include="Features\Feature6\Feature6.feature">
       <FeatureId>{fe2cd0d8-2a8c-4947-a8a7-c8f7d2e83cab}</FeatureId>
     </None>
-    <None Include="IncomeList\IncomeListInstance\SharePointProjectItem.spdata">
+    <None Include="CategoryLists\IncomeList\IncomeListInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5950a77d-1d7c-40f1-b10b-2035316f0de0}</SharePointProjectItemId>
     </None>
-    <None Include="IncomeList\SharePointProjectItem.spdata">
+    <None Include="CategoryLists\IncomeList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{3981f1cc-9e9b-407b-8eff-9e14c43651d7}</SharePointProjectItemId>
     </None>
     <None Include="Income\IncomeInstance\SharePointProjectItem.spdata">
@@ -178,9 +179,6 @@
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0193d2ee-0f0d-4baf-b62d-b5d2cd26d521}</SharePointProjectItemId>

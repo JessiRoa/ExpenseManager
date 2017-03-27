@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<List xmlns:ows="Microsoft SharePoint" Title="ExponseList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ExponseList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+<List xmlns:ows="Microsoft SharePoint" Title="ExpenseList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ExpenseList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
   <MetaData>
     <ContentTypes>
       
