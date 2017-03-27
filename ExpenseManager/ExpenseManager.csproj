@@ -42,9 +42,6 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="CategoryLists\Categories\Elements.xml" />
-    <Content Include="CategoryLists\Categories\ExponseListInstance\Elements.xml" />
-    <Content Include="CategoryLists\Categories\Schema.xml" />
     <Content Include="Content\bootstrap-dialog.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap.min.css" />
@@ -209,6 +206,12 @@
     <Content Include="Features\Feature6\Feature6.Template.xml">
       <DependentUpon>Feature6.feature</DependentUpon>
     </Content>
+    <Content Include="Features\Feature7\Feature7.Template.xml">
+      <DependentUpon>Feature7.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature8\Feature8.Template.xml">
+      <DependentUpon>Feature8.feature</DependentUpon>
+    </Content>
     <Content Include="Images\AppIcon.png" />
     <Content Include="Columns\Category\Elements.xml" />
     <Content Include="Columns\Date\Elements.xml" />
@@ -227,12 +230,6 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
-    <None Include="CategoryLists\Categories\ExponseListInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{0ba8e1a6-748b-4683-98c8-6717c18784ad}</SharePointProjectItemId>
-    </None>
-    <None Include="CategoryLists\Categories\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{0406c837-bbf7-48ff-8c31-7b1a36dfea4a}</SharePointProjectItemId>
-    </None>
     <None Include="Content\bootstrap-dialog.less" />
     <None Include="Content\DataTables\css\common.scss" />
     <None Include="Content\DataTables\css\mixins.scss" />
@@ -316,10 +313,34 @@
     <None Include="Columns\Expense\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{dda1e891-5f74-48dd-8b1c-2a84593428b1}</SharePointProjectItemId>
     </None>
+    <None Include="Features\Feature7\Feature7.feature">
+      <FeatureId>{36a7ecdb-2dcf-4185-b781-d3f61f77983b}</FeatureId>
+    </None>
+    <None Include="Features\Feature8\Feature8.feature">
+      <FeatureId>{7f192933-c5bf-4ffd-bd70-ae83d5b3df00}</FeatureId>
+    </None>
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Lists\Categories\CategoriesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9cec9cd7-ae4b-4ff3-9a24-a3477b4f2da6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Categories\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a577daee-9996-406a-90bf-6849f8d404e5}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IncomesList\IncomesListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4927745a-fd72-414c-ab52-f4bdb2f3834c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\IncomesList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a5bd0fa-2f14-4dfc-a294-e9d36f491dbb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PaymentsList\PaymentsListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9fd6c32-61d8-4cde-b787-d1d6de45fb47}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\PaymentsList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{90924bd5-cc60-4040-8dde-630f382d5c31}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c245d900-de0e-4fa9-b3c8-ec03b6698632}</SharePointProjectItemId>
@@ -328,6 +349,15 @@
     <Content Include="Elements.xml" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Lists\Categories\CategoriesInstance\Elements.xml" />
+    <Content Include="Lists\Categories\Elements.xml" />
+    <Content Include="Lists\Categories\Schema.xml" />
+    <Content Include="Lists\IncomesList\Elements.xml" />
+    <Content Include="Lists\IncomesList\IncomesListInstance\Elements.xml" />
+    <Content Include="Lists\IncomesList\Schema.xml" />
+    <Content Include="Lists\PaymentsList\Elements.xml" />
+    <Content Include="Lists\PaymentsList\PaymentsListInstance\Elements.xml" />
+    <Content Include="Lists\PaymentsList\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="SharePointProjectItem.spdata">

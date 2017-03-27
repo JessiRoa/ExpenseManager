@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Categories" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Categories" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100277272252b474a6296d79aa6565d2bb4" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{d3cd86b0-6877-4e89-a244-1f27a97b9ef7}" Name="Food" /><FieldRef ID="{92e5b89a-055d-4c1f-be5a-cadbd16c9960}" Name="Loans" /><FieldRef ID="{f7b69ffa-f405-4dbb-83d7-c2bf7e9c93a6}" Name="Healthcare" /><FieldRef ID="{35e37d52-4a4e-46d6-b75d-2bd0748899ae}" Name="Transport" /><FieldRef ID="{60f10cd8-9cd3-469e-931e-6f8ac61b5e06}" Name="Clothing" /><FieldRef ID="{be182a43-cb5f-4506-8291-14b5e55bfc07}" Name="Fuel" /><FieldRef ID="{709f111a-3c6d-4905-ada5-f99fc13f7e8d}" Name="Pets" /><FieldRef ID="{e86e53d4-5458-430a-b15a-c6feedef3f29}" Name="Education" /><FieldRef ID="{f15ae5db-0569-488e-a694-b9fa02a1905e}" Name="Fun" /><FieldRef ID="{9419d3c4-393b-4a2b-943b-cdbcae445c36}" Name="Household" /><FieldRef ID="{c62163dc-0eff-4bf0-a4b8-01e0f5d6823e}" Name="Family" /><FieldRef ID="{84f842b7-601b-4fd5-ab22-3f204b3c95e9}" Name="Automobile" /><FieldRef ID="{38fc4d72-dfe6-4892-b6b7-c087f4d78831}" Name="Insurance" /><FieldRef ID="{afb319b0-959f-4460-8d3b-03a7a9a4dc5a}" Name="Vacation" /><FieldRef ID="{b2bdfcce-7b74-420b-8f2c-461da62a6e83}" Name="Uilities" /><FieldRef ID="{6e9e3e41-2c3c-45d0-a2df-fa70f17c0651}" Name="Sales" /><FieldRef ID="{52971ea3-7bd6-43c6-908a-708da1ec23ae}" Name="Taxes" /><FieldRef ID="{0d1022c8-5fd2-430b-9937-9644105d7808}" Name="Salary" /><FieldRef ID="{886542eb-df12-474b-a50e-1affd855ab4d}" Name="Others" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Food" ID="{d3cd86b0-6877-4e89-a244-1f27a97b9ef7}" DisplayName="Food" Type="Text" /><Field Name="Loans" ID="{92e5b89a-055d-4c1f-be5a-cadbd16c9960}" DisplayName="Loans" Type="Text" /><Field Name="Healthcare" ID="{f7b69ffa-f405-4dbb-83d7-c2bf7e9c93a6}" DisplayName="Healthcare" Type="Text" /><Field Name="Transport" ID="{35e37d52-4a4e-46d6-b75d-2bd0748899ae}" DisplayName="Transport" Type="Text" /><Field Name="Clothing" ID="{60f10cd8-9cd3-469e-931e-6f8ac61b5e06}" DisplayName="Clothing" Type="Text" /><Field Name="Fuel" ID="{be182a43-cb5f-4506-8291-14b5e55bfc07}" DisplayName="Fuel" Type="Text" /><Field Name="Pets" ID="{709f111a-3c6d-4905-ada5-f99fc13f7e8d}" DisplayName="Pets" Type="Text" /><Field Name="Education" ID="{e86e53d4-5458-430a-b15a-c6feedef3f29}" DisplayName="Education" Type="Text" /><Field Name="Fun" ID="{f15ae5db-0569-488e-a694-b9fa02a1905e}" DisplayName="Fun" Type="Text" /><Field Name="Household" ID="{9419d3c4-393b-4a2b-943b-cdbcae445c36}" DisplayName="Household" Type="Text" /><Field Name="Family" ID="{c62163dc-0eff-4bf0-a4b8-01e0f5d6823e}" DisplayName="Family" Type="Text" /><Field Name="Automobile" ID="{84f842b7-601b-4fd5-ab22-3f204b3c95e9}" DisplayName="Automobile" Type="Text" /><Field Name="Insurance" ID="{38fc4d72-dfe6-4892-b6b7-c087f4d78831}" DisplayName="Insurance" Type="Text" /><Field Name="Vacation" ID="{afb319b0-959f-4460-8d3b-03a7a9a4dc5a}" DisplayName="Vacation" Type="Text" /><Field Name="Uilities" ID="{b2bdfcce-7b74-420b-8f2c-461da62a6e83}" DisplayName="Utilities" Type="Text" /><Field Name="Sales" ID="{6e9e3e41-2c3c-45d0-a2df-fa70f17c0651}" DisplayName="Sales" Type="Text" /><Field Name="Taxes" ID="{52971ea3-7bd6-43c6-908a-708da1ec23ae}" DisplayName="Taxes" Type="Text" /><Field Name="Salary" ID="{0d1022c8-5fd2-430b-9937-9644105d7808}" DisplayName="Salary" Type="Text" /><Field Name="Others" ID="{886542eb-df12-474b-a50e-1affd855ab4d}" DisplayName="Others" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Food" /><FieldRef Name="Loans" /><FieldRef Name="Healthcare" /><FieldRef Name="Transport" /><FieldRef Name="Clothing" /><FieldRef Name="Fuel" /><FieldRef Name="Pets" /><FieldRef Name="Education" /><FieldRef Name="Fun" /><FieldRef Name="Household" /><FieldRef Name="Family" /><FieldRef Name="Automobile" /><FieldRef Name="Insurance" /><FieldRef Name="Vacation" /><FieldRef Name="Uilities" /><FieldRef Name="Sales" /><FieldRef Name="Taxes" /><FieldRef Name="Salary" /><FieldRef Name="Others" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

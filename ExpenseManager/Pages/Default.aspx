@@ -10,7 +10,7 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <meta name="WebPartPageExpansion" content="full" />
     <link type="text/css" href="../Content/toastr.css" rel="stylesheet" />
-    <link type="text/css" href="../Content/bootstrap.css" rel="stylesheet" />
+    <link type="text/css" href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link type="text/css" href="../Content/bootstrap-dialog.css" rel="stylesheet" />
     <link href="../Content/materialize/css/materialize.min.css" rel="stylesheet" />
     <link type="text/css" href="../Content/DataTables/css/select.bootstrap.min.css" rel="stylesheet" />
@@ -19,7 +19,7 @@
 
     <!-- javascript references added to the following file -->
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="../Scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="../Scripts/bootstrap-dialog.js"></script>
     <script src="../Scripts/materialize/materialize.min.js"></script>
     <script type="text/javascript" src="../Scripts/toastr.min.js"></script>
@@ -35,7 +35,7 @@
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    div class="container">
+    <div class="container">
         <div class="col s12">
             <div class="row">
                 <div class="col s12" id="display">

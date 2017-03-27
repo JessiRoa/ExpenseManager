@@ -8,7 +8,7 @@
 >
   <Properties>
     <Title>ExpenseManager</Title>
-    <StartPage>~appWebUrl/Pages/ExpenseManager.aspx?{StandardTokens}</StartPage>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>
