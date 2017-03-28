@@ -24,6 +24,7 @@
     <script src="../Scripts/materialize/materialize.min.js"></script>
     <script type="text/javascript" src="../Scripts/toastr.min.js"></script>
     <script src="../Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script src="../Scripts/moment-with-locales.min.js"></script>
     <script type="text/javascript" src="../Scripts/DataTables/dataTables.select.min.js"></script>
     <script type="text/javascript" src="../Scripts/App.js"></script>
 </asp:Content>
@@ -40,38 +41,36 @@
             <div class="row">
                 <div class="col s12" id="display">
                     <div class="row" id="list">
-                        <table class="bordered">
+                        <table class="bordered" id="detailList">
                             <thead>
                                 <tr>
                                     <th>Name</th>
                                     <th>Description</th>
+                                    <th>Date</th>
+                                    <th>Category</th>
+                                    <th>Amount</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Some name</td>
-                                    <td>Some description</td>
-                                </tr>
-                            </tbody>
+                           <tbody></tbody>
                         </table>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col s12">
-                    <a class="waves-effect waves-light btn" id="addIncome" data-toggle="modal" data-target="#myModal">Add Income</a>
-                    <a class="waves-effect waves-light btn" id="addPayment">Add Payment</a>
+                    <a class="waves-effect waves-light btn" id="addIncome" onclick='addNewFile();' data-toggle="modal" data-target="#newIncome">Add Income</a>
+                    <a class="waves-effect waves-light btn" id="addPayment" data-toggle="modal" data-target="#newPayment">Add Payment</a>
                 </div>
             </div>
         </div>
 
 
         <!-- Modal dialog -->
-        <div class="modal fade" id="myModal">
+        <div class="modal fade" id="newIncome">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">New Income</h4>
+                        <h4 class="modal-title" id="myModalLabel">New Income</h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -90,6 +89,23 @@
                               </div>
                               <div class="row">
                                 <div class="input-field col s12">
+                                 <input type="date" id="date" class="datepicker">
+                                    <label for="date">Date</label>
+                                </div>
+                              </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <select>
+                                            <option value="" disabled selected>Choose category</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <label>Category</label>
+                                    </div>
+                                </div>
+                              <div class="row">
+                                <div class="input-field col s12">
                                   <textarea id="description" class="materialize-textarea"></textarea>
                                     <label for="description">Description</label>
                                 </div>
@@ -99,7 +115,63 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Add Item</button>
+                        <button type="button" class="btn btn-primary" id="submitForm">Save</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- Modal dialog -->
+        <div class="modal fade" id="newPayment">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">New Payment</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <form class="col s12">
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="name" type="text" class="validate">
+                                  <label for="name">Name</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="amount" type="number" class="validate">
+                                  <label for="name">Amount</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                 <input type="date" id="date" class="datepicker">
+                                    <label for="date">Date</label>
+                                </div>
+                              </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <select>
+                                            <option value="" disabled selected>Choose category</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <label>Category</label>
+                                    </div>
+                                </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <textarea id="description" class="materialize-textarea"></textarea>
+                                    <label for="description">Description</label>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="submitForm">Save</button>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
@@ -107,4 +179,12 @@
 
         
     </div>
+    <script type="text/javascript">
+        $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15 // Creates a dropdown of 15 years to control year
+        });
+        $('select').material_select();
+    </script>
+    
 </asp:Content>
