@@ -9,23 +9,17 @@
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <meta name="WebPartPageExpansion" content="full" />
-    <link type="text/css" href="../Content/toastr.css" rel="stylesheet" />
     <link type="text/css" href="../Content/bootstrap.min.css" rel="stylesheet" />
-    <link type="text/css" href="../Content/bootstrap-dialog.css" rel="stylesheet" />
+    <%--<link type="text/css" href="../Content/bootstrap-dialog.css" rel="stylesheet" />--%>
     <link href="../Content/materialize/css/materialize.min.css" rel="stylesheet" />
-    <link type="text/css" href="../Content/DataTables/css/select.bootstrap.min.css" rel="stylesheet" />
-    <link href="../Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link type="text/css" href="../Content/App.css" rel="Stylesheet"/>
 
     <!-- javascript references added to the following file -->
     <script type="text/javascript" src="../Scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../Scripts/bootstrap-dialog.js"></script>
+    <%--<script type="text/javascript" src="../Scripts/bootstrap-dialog.js"></script>--%>
     <script src="../Scripts/materialize/materialize.min.js"></script>
-    <script type="text/javascript" src="../Scripts/toastr.min.js"></script>
-    <script src="../Scripts/DataTables/jquery.dataTables.min.js"></script>
     <script src="../Scripts/moment-with-locales.min.js"></script>
-    <script type="text/javascript" src="../Scripts/DataTables/dataTables.select.min.js"></script>
     <script type="text/javascript" src="../Scripts/App.js"></script>
 </asp:Content>
 
@@ -46,7 +40,7 @@
                                 <tr>
                                     <th>Name</th>
                                     <th>Description</th>
-                                    <th>Date</th>
+                                   <%-- <th>Date</th>--%>
                                     <th>Category</th>
                                     <th>Amount</th>
                                 </tr>
@@ -87,27 +81,10 @@
                                   <label for="name">Amount</label>
                                 </div>
                               </div>
-                              <div class="row">
+                             <div class="row">
                                 <div class="input-field col s12">
-                                 <input type="date" id="date" class="datepicker">
-                                    <label for="date">Date</label>
-                                </div>
-                              </div>
-                                <div class="row">
-                                    <div class="input-field col s12">
-                                        <select>
-                                            <option value="" disabled selected>Choose category</option>
-                                            <option value="1">Option 1</option>
-                                            <option value="2">Option 2</option>
-                                            <option value="3">Option 3</option>
-                                        </select>
-                                        <label>Category</label>
-                                    </div>
-                                </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <textarea id="description" class="materialize-textarea"></textarea>
-                                    <label for="description">Description</label>
+                                    <input type="text" id="description" class="validate">
+                                  <label for="description">Description</label>
                                 </div>
                               </div>
                             </form>
@@ -151,11 +128,8 @@
                               </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <select>
+                                        <select id="cateogries">
                                             <option value="" disabled selected>Choose category</option>
-                                            <option value="1">Option 1</option>
-                                            <option value="2">Option 2</option>
-                                            <option value="3">Option 3</option>
                                         </select>
                                         <label>Category</label>
                                     </div>
@@ -184,7 +158,9 @@
             selectMonths: true, // Creates a dropdown to control month
             selectYears: 15 // Creates a dropdown of 15 years to control year
         });
-        $('select').material_select();
+
+
+        
     </script>
     
 </asp:Content>

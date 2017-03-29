@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<List xmlns:ows="Microsoft SharePoint" Title="Categories" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Categories" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+<List xmlns:ows="Microsoft SharePoint" Title="Incomster" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Incomster" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
       
       
-    <ContentType ID="0x0100277272252b474a6296d79aa6565d2bb4" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+    <ContentType ID="0x01004b965176d36b49df8c54326837506427" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{eeffda29-a004-4082-ac18-67e80e75aa72}" Name="Amount" /><FieldRef ID="{5207f1a9-04a1-4ff3-9cb4-c6efbee8c952}" Name="Description1" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
       </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
     <Fields>
       
-    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /></Fields>
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Amount" ID="{eeffda29-a004-4082-ac18-67e80e75aa72}" DisplayName="Amount" Type="Number" /><Field Name="Description1" ID="{5207f1a9-04a1-4ff3-9cb4-c6efbee8c952}" DisplayName="Description" Type="Text" /></Fields>
     <Views>
       
       
@@ -37,7 +37,7 @@
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
           
-        <FieldRef Name="LinkTitle"></FieldRef></ViewFields>
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Amount" /><FieldRef Name="Description1" /></ViewFields>
         <Query>
           <OrderBy>
             

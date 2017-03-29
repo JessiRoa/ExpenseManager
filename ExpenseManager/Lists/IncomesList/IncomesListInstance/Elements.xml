@@ -9,6 +9,7 @@
           <Field Name="Date">2017-01-12</Field>
           <Field Name="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Field>
           <Field Name="Expense">12000</Field>
+          <Field Name="FileTitle">File Title</Field>
         </Row>
         <Row>
           <Field Name="Title">Sale</Field>
@@ -16,6 +17,7 @@
           <Field Name="Date">2017-06-12</Field>
           <Field Name="Description">Aliquam blandit enim sit amet purus tristique, sed pellentesque ligula cursus.</Field>
           <Field Name="Expense">6000</Field>
+          <Field Name="FileTitle">File Title</Field>
         </Row>
       </Rows>
     </Data>
